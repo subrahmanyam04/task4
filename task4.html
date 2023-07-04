@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap Glyphicons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-glyphicons/1.9.0/css/bootstrap-glyphicons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+    <nav class="navbar navbar-expand-lg bar">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <img src="https://www.shutterstock.com/image-vector/camera-female-girl-photographer-picture-600w-2254471595.jpg" width="30px" height="30px" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  justify-content-end me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  " aria-current="page" href="#"><strong>Home</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><strong>About</strong></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <strong>Dropdown</strong>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"><strong>Contact</strong></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">SEARCH</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- slideshow -->
+<div class="container-fluid mt-3">
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="d-block w-100 img " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CANON CAMERA'S</h5>
+          <p>Our brand is your goal and our goal is acheving your goals.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://res.cloudinary.com/jerrick/image/upload/v1613318166/60294816e5abae001c5260be.jpg" class="d-block w-100 img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CANON CAMERA'S</h5>
+          <p>Photography is aswome feel and make the time dynamic.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/618066222/photo/camera-capturing-a-forest.jpg?s=612x612&w=0&k=20&c=Mqr3fFI2QPY09_bu3GyRYJvcdwBO2qeHPT88GFsLTS4=" class="d-block w-100 img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>CANON CAMERA'S</h5>
+          <p>Our brand is your goal and our goal is acheving your goals.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- video -->
+
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-6 offset-md-3">
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" height="300px" class="w-100" allowfullscreen></iframe>
+        <p class="text-center" style="font-size: larger;"><b>@A Small Video About Our Products</b></p>
+        <p class="text-center"><a href="" class="a3">@canonyoutube</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- form -->
+
+<div class="container px-4 text-center mt-4">
+  <div class="row gx-5">
+    <div class="col mail mt-5 mb-5 ms-5 me-5 bg-body-tertiary">
+     <div class="p-3">
+     <h2 style="text-align: center;">REGISTER NOW TO BY</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label doc">Email</label>
+          <input type="email" class="form-control detail" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label doc">Password</label>
+          <input type="password" class="form-control detail" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label doc">Address</label>
+          <input type="text" class="form-control detail" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label doc">Address 2</label>
+          <input type="text" class="form-control detail" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label doc">City</label>
+          <input type="text" class="form-control detail" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label doc">State</label>
+          <select id="inputState" class="form-select detail">
+            <option selected>Choose...</option>
+            <option>Andhra pradesh</option>
+            <option>Telemgana</option>
+            <option>Tami Nadu</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label doc">PIN no.</label>
+          <input type="text" class="form-control detail" id="inputZip">
+        </div>
+      
+        <div class="col-12">
+          <label for="inputAddress" class="form-label"></label>          
+        </div>
+        <div class="col-12">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Sign up
+</button>
+        </div>
+
+<!-- model -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">NOTICE</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        This Page Is Not Working
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+     </form>
+     </div>
+    </div>
+    <!-- <div class="col">
+      <div class="p-3">Custom column padding</div>
+    </div> -->
+  </div>
+</div>
+
+
+<!-- footer -->
+
+<hr>
+<div class="container">
+  <footer class="footer">
+    
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h4>Company</h4>
+        <p>About Us</p>
+        <p>Contact Us</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Services</h4>
+        <p>Products</p>
+        <p>Selling</p>
+        <p>Customer Services</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Follow Us</h4>
+        <ul class="list-inline">
+          <li><a href="#"><img src="https://img.icons8.com/?size=512&id=85126&format=png" height="30px" alt=""> Facebook</a></li>
+          <li><a href="#" class="a2"><img src="https://img.icons8.com/?size=1x&id=32309&format=png" height="30px" alt=""> Instagram</a></li>
+          <li><a href="#" class="a3"><img src="https://img.icons8.com/?size=1x&id=16733&format=png" height="30px" alt=""> Whatsapp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
+
+
+
+
+<div class="container-fluid mt-5 p-5">
+  <div class="table-responsive-sm">
+<table class="table">
+  <thead>
+    <hr>
+    <tr>
+      <th scope="col">Item no.</th>
+      <th scope="col">Images</th>
+      <th scope="col">Series Details</th>
+      <th scope="col">Price</th>
+      <th scope="col">ADD</th>
+      <th scope="col">Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-success">
+      <th scope="row">1</th>
+      <td class="text-center p-4"><img src="/assets/images/lap1.jpg" height="50px" width="50px" alt=""></td>
+      <td class="text-center p-4">Asus series-1</td>
+      <td class="text-center p-4"> &#8377; <span>32000</span> <input type="hidden" name="totalprice" value="0"> </td>
+      <td class="text-center p-4"><img src="./assets/images/cartadd.png" alt="cart1" width="30px"  height="20px"> </td>
+      <td class="text-center p-4"><img src="./assets/images/cartremove.png" alt="cartremove" height="20px" width="30px"></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
